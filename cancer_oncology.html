@@ -1,0 +1,8517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>body{background-color:white;}</style>
+<style type="text/css">
+.Rtable1 table, table.Rtable1 {
+font-family: "Arial", Arial, sans-serif;
+font-size: 10pt;
+border-collapse: collapse;
+padding: 0px;
+margin: 0px;
+
+}
+.Rtable1 td {
+white-space:nowrap;
+}
+.Rtable1 th, .Rtable1 td {
+border: 0;
+text-align: center;
+padding: 0.5ex 1.5ex;
+margin: 0px;
+}
+.Rtable1 thead>tr:first-child>th {
+border-top: 2pt solid black;
+}
+.Rtable1 thead>tr:last-child>th {
+border-bottom: 1pt solid black;
+}
+.Rtable1 tbody>tr:last-child>td {
+border-bottom: 2pt solid black;
+}
+.Rtable1 th.grouplabel {
+padding-left: 0;
+padding-right: 0;
+}
+.Rtable1 th.grouplabel>div {
+margin-left: 1.5ex;
+margin-right: 1.5ex;
+border-bottom: 1pt solid black;
+}
+.Rtable1 th.grouplabel:last-child>div {
+margin-right: 0;
+}
+.Rtable1 .rowlabel {
+text-align: left;
+padding-left: 2.5ex;
+}
+.Rtable1 .firstrow.rowlabel {
+padding-left: 0.5ex;
+font-weight: bold;
+}
+
+.Rtable1-zebra tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+table.Rtable1-times {
+font-family: "Times New Roman", Times, serif;
+}
+
+.Rtable1-shade th {
+background-color: #ccc;
+}
+
+.Rtable1-grid th, .Rtable1-grid td {
+border-left: 1pt solid black;
+border-right: 1pt solid black;
+}
+.Rtable1-grid thead>tr:first-child>th {
+border-top: 1pt solid black;
+}
+.Rtable1-grid thead>tr:last-child>th {
+border-bottom: 1pt solid black;
+}
+.Rtable1-grid tbody>tr:last-child>td {
+border-bottom: 1pt solid black;
+}
+.Rtable1-grid .firstrow, .Rtable1-grid .firstrow ~ td {
+border-top: 1pt solid black;
+}
+.Rtable1-grid th.grouplabel>div {
+margin-left: 0;
+margin-right: 0;
+border-bottom: 0;
+}
+
+.Rtable1-center td.rowlabel, .Rtable1-center td.firstrow.rowlabel {
+font-weight: bold;
+text-align: center;
+padding: 0.5ex 1.5ex;
+}
+
+.Rtable1 .Rtable1-footnote {
+font-size: smaller;
+padding: 0px;
+margin: 0px;
+text-align: left;
+white-space: normal;
+}
+</style>
+
+</head>
+<body>
+<div class="Rtable1"><table class="Rtable1">
+<thead>
+<tr>
+<th class="rowlabel firstrow lastrow"></th>
+<th class="firstrow lastrow"><span class="stratlabel">Overall<br><span class="stratn">(N=234)</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="rowlabel firstrow">ecog</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>3.76 (2.61)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">6.00 [0, 6.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tx_modality</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Chemotherapy + Radiation</td>
+<td>15 (6.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chemotherapy + Radiation + Surgery</td>
+<td>8 (3.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chemotherapy + Surgery</td>
+<td>42 (17.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chemotherapy alone</td>
+<td>67 (28.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">None</td>
+<td>46 (19.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>8 (3.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">48 (20.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tx_modaliy_other</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">MRM+ALND</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Radiation therapy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">surgery</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Surgery</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Surgery breast mastectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tabs meloxicam 15mg</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tramadol, PCM</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">226 (96.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_regimens</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Cancer</td>
+<td>192 (82.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cervical Cancer</td>
+<td>14 (6.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Esophageal Cancer</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">HEAD AND NECK CANCERS</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Prostate Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">22 (9.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_breast</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">AC-T</td>
+<td>103 (44.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Caboplatin/paclitaxel/Docetaxel</td>
+<td>13 (5.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>10 (4.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Palbociclib*/letrozole</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tamoxifen</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Trastuzumab*</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">103 (44.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_breast_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Adriamycin,cyclophosphamide</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">CHOP</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cyclopropane</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">FLOT</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Paclitaxel</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">TCH</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Xelode</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">227 (97.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_cervical</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Carboplatin/paclitaxel</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_cervical_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_esophageal</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_esophageal_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">FLOT</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_prostate</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Docetaxel</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_prostate_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_crc</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_crc_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_nhl</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_nhl_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_hodgkin</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_hodgkin_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_headneck</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">TPF</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_headneck_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_penile</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_penile_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_bladder</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_bladder_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_nsclc</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_nsclc_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_sclc</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_sclc_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_vulva</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_vulva_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_endometrial</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_endometrial_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_gastric</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_gastric_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_anal</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_anal_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_pancreatic</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_pancreatic_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_hcc</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_hcc_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_kaposi</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_kaposi_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_soft_tissue_sarc</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_soft_tissue_sarc_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_rhabdo</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_rhabdo_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_ewing</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_ewing_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_osteo</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_osteo_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_cml</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_cml_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_cycles</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">1</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">11</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">12</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">14</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">2</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">27</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">3</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">4</td>
+<td>33 (14.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">5</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">6</td>
+<td>19 (8.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">7</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">8</td>
+<td>38 (16.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel">unknown</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">102 (43.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">xrt_dose_total</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>9.00 (8.49)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>9.00 [3.00, 15.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tx_response</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Complete response</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Could not be assessed</td>
+<td>59 (25.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Partial Response</td>
+<td>25 (10.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Progressive disease</td>
+<td>37 (15.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stable Response</td>
+<td>41 (17.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">70 (29.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_anemia</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Grade 0</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Grade 4</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_neutropenia</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_thrombocytopenia</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_diarrhea</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_neuropathy</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_elevated_creatinine</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ae_elevated_transaminases</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">neoadjuvant_surgery</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>58 (24.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">165 (70.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relapse_recurrence</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>105 (44.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>14 (6.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">115 (49.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">recurrence_location</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Distant</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Local</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">222 (94.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Lymph node</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Brain</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Lung</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___5</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Liver</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___7</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___8</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Skeletal</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metastatic_sites___9</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">recurrence_tx_strategy</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">chemo</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">commence chemo, adherence counselling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">229 (97.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_2nd_line</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">abiraterone</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Palbociclib,zoladex</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tamoxifen</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Xeloda</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">zoledronic acid</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_2nd_line_cycles</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>6.14 (2.73)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>5.00 [4.00, 10.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">227 (97.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_3rd_line</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">GEM 1 CARBO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">chemo_3rd_line_cycles</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>1.00 (NA)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>1.00 [1.00, 1.00]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">clinical_status</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Alive</td>
+<td>76 (32.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">158 (67.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comments_remarks</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Breast mastectomy, completed chemo and Radio</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">cancer 2004 +Masterctomy, +Adj chemo, +Radio  Wound in left axilla and no lymph node</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Client disappeared on the enrollment date.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Completed 4 cycles in Kabsabet</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Completed cycles of chemotherapy on 16-Feb-2022 at MOI Referral Teaching Hospital.  Currently not on treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Current status is unknown.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Discussed treatment options CCRT or chemo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ECOG not indicated</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Evaluate CT-scans for possible surgery/</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">File does&#39;nt have any lab work results</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">For initiation on ACT then taxane.  TCA 20-12-2021</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">For MRM if no RT</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">For Transfer to MTRH</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Got 1 cycle of chemo before being a lost to follow up</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Got lost to follow up</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">In 2013 completed 8 cycles at KNH</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Initiated on chemo before lost to follow up. Might need to restart chemo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab tests requested</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast IDC  Plan CT scan of the chest and abd/pelv</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Loss of lumbar lordosis, widespread skeletal metastases.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Newly diagnosed breast CA, is to be reviewed with results. Referred for psychosocial and nutritional counseling.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo records for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo records for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo report for this patient.</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo report for this patient. Last time in clinic was n 29-09-2021</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo report nor history of treatment for this patiet.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo treatment for the patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo treatment for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo treatment record for his patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo treatment record for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemo treatment records for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy  treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy records for this patient.</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment indicated for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment record for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment records</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment records for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment records.  The patient had 8 cycles of chemotherapy which had 4 cycles of AC+ 4 cycles of docetaxel</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment sessions for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy treatment specified for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No chemotherapy. There was a plan to get medical report from Eldoret.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No ecog indicated</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No ecog specified.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No history of chemo treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No history or record of chemo treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No history or records of chemo treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests,no treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No treatment records</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No treatment started.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Not on treatment</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Not on Treatment</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Not yet started on chemotherapy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">On yearly check-ups, no evidence of mets shown</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ordered for I.H.C</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient got lost to follow up in 2020</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient informed of treatment plan  1. chemo + surgery  2. Need for IHE</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient received 1st cycle in October then got lost to follow up.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient received 4 cycles of chemo A/C got lost to follow up. Received 6 cycles of carbo/taxol currently on letrozole</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient records and chemo not clear</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient referred for radio therapy at Nakuru referral hospital.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient referred for RTX on 06/11/2019</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient was admitted through oncology clinic and later discharged home through oncology clinic after treatment. IDC not staged</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient was to be put on Tamoxifen 20mg OD for 5 years</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Patient was to be reviewed with the lab result. Histology, biopsy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Plan to go for RT</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Plan was referred for chemoradiotherapy but lost to Follow up</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Recommended for pyschosocial counseling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Refer for chemoradiation</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred for blood transfusion</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred for CCRT</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred for nutritional counselling,  UECs, CBCs, LFTs to be reviewed with lab results</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred to India for further management</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred to Nakuru for a head CT scan</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred to Tenwek    Hospital for cardiothoracic</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred to tenwek for cardiothoracic review</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Reports indicate patient has received multiple lines of chemotherapy including ACT,Carboplatin/Gemcitabine/aCapecitibine but no indictaion on when the chemo started.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Request a report from MTRH with details of previous treatment and IHC</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Review results for introduction to chemo carbol/taxol</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Surgical team were to discuss the date for MRM and convey the feedback to the patient. This was as at 12-10-2022</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">The client was seen last on 8-Nov-2022.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">The patient was to start neoadjuvant chemo on AC-4 cycles.(No chemo treatment so far)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">There is no treatment indicated for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">There was a plan for MRM</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">There was a plan to start treatment but no records indicating chemo treatment was administered</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Treatment sheet missing in the client&#39;s file.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Was referred from Kisumu Hospice. Patient had received 2 chemo sessions but the start date was not indicated.  Last chemo on may 2018 and since then the patient has not attended clinic.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">139 (59.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">treatment_1e07_complete</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>1.71 (0.706)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">2.00 [0, 2.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_marker</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Prostate</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">229 (97.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cea</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ca19_9</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">afp</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">psa</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">hcg</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ca_125</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">calcitonin</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">thyroglobulin</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_marker_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">squamous cell carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uterine</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_marker_value</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>48.5 (4.95)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>48.5 [45.0, 52.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">albumin</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">&lt; 2(g/L)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">&gt;3.5(g/L)</td>
+<td>92 (39.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">2-3.5(g/L)</td>
+<td>12 (5.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">unknown</td>
+<td>43 (18.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">86 (36.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">crp</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>105 (44.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">129 (55.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">crp_value</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">crp_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ldh</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">High</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Normal</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>102 (43.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">130 (55.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ldh_value</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>351 (NA)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>351 [351, 351]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ldh_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">IU/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Right</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">230 (98.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Left</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___5</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Lower</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___7</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___8</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___9</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___10</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___11</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___12</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___13</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_loc___14</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_foci</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Multiple</td>
+<td>20 (8.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">One</td>
+<td>68 (29.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">146 (62.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">clin_t_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">T1</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">T2</td>
+<td>13 (5.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">T3</td>
+<td>10 (4.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">T4a</td>
+<td>20 (8.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">T4b</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tis</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">179 (76.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">clin_n_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">N0</td>
+<td>12 (5.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N1</td>
+<td>17 (7.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N2</td>
+<td>19 (8.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N3</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">182 (77.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">clin_m_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">M0</td>
+<td>37 (15.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">M1</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">188 (80.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">clin_final_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">2</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">grade 2</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Grade 2</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Grade 3</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">II</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">III</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIIA</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIIb</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIIB</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">iv</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IV</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IVA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pT2N1a</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pT4N0MX</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stage 1</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">stage IIIb</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stage iv</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">200 (85.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">abs_lymph</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>6.55 (13.0)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>2.30 [0.280, 70.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">70 (29.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">abs_neut</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>8.14 (13.9)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>3.20 [0.200, 61.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">86 (36.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">hgb_baseline</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>12.3 (3.28)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>12.4 [4.10, 38.2]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">64 (27.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">platelet_baseline</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>312 (133)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>277 [94.7, 860]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">66 (28.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">wbc_baseline</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>6.54 (2.87)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>6.20 [0.920, 20.8]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">69 (29.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">BUN</td>
+<td>164 (70.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">70 (29.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">creatinine</td>
+<td>154 (65.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">80 (34.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">potassium</td>
+<td>160 (68.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">74 (31.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___5</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">sodium</td>
+<td>160 (68.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">74 (31.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">calcium</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">229 (97.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___7</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">albumin</td>
+<td>118 (50.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">116 (49.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___8</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">total protein</td>
+<td>107 (45.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">127 (54.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___9</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">ALP</td>
+<td>97 (41.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">137 (58.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___10</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">ALT</td>
+<td>111 (47.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">123 (52.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___11</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">AST</td>
+<td>113 (48.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">121 (51.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">metabolic_panels___12</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">total bilirubin</td>
+<td>31 (13.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">203 (86.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">bun</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>3.77 (3.19)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>3.17 [1.28, 33.4]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">70 (29.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">bun_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/L</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mg/dl</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mml/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/l</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>151 (64.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">71 (30.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">creatinine</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>74.9 (44.2)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>67.0 [0.850, 456]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">80 (34.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">creatinine_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mg/dl</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">U/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ummol/l</td>
+<td>22 (9.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ummol/L</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">umol/l</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">umol/L</td>
+<td>120 (51.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">umpl/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">81 (34.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">glucose</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">glucose_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">potassium</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>4.40 (2.80)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>4.21 [2.74, 39.1]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">74 (31.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">potassium_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/l</td>
+<td>42 (17.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>113 (48.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mmol/L</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">75 (32.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">sodium</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>135 (15.4)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>138 [3.27, 154]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">74 (31.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">sodium_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">mmol /L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/l</td>
+<td>40 (17.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>117 (50.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">76 (32.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">calcium</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>82.8 (45.8)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>100 [1.51, 113]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">229 (97.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">calcium_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">albumn</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>87.7 (421)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>41.3 [15.1, 4570]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">116 (49.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">albumin_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/l</td>
+<td>20 (8.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">g/L</td>
+<td>94 (40.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmo/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">umol/L</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">116 (49.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">total_protein</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>71.9 (14.7)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>74.4 [2.60, 94.2]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">127 (54.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">total_protein_unit</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/dl</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">g/dL</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">g/l</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">g/L</td>
+<td>82 (35.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/l</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">127 (54.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">alk_phos</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>117 (67.2)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>103 [55.6, 575]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">138 (59.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">alk_phos_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/L</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">U/l</td>
+<td>17 (7.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">U/L</td>
+<td>76 (32.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">138 (59.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">alt</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>18.6 (11.1)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>15.5 [2.00, 75.6]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">123 (52.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">alt_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/l</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">U/L</td>
+<td>109 (46.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">124 (53.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ast</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>28.2 (26.6)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>21.8 [9.80, 199]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">121 (51.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ast_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">U/L</td>
+<td>113 (48.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">121 (51.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">total_bilirubin</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>21.9 (69.6)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>8.80 [0.430, 382]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">205 (87.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">total_bilirubin_units</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">g/l</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mg/dl</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mmol/L</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">U/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ummol/L</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">umo/L</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">umol/L</td>
+<td>14 (6.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Umol/L</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">205 (87.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">lab_comments</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">client completed Chemo and RT in 2016, on yearly check-ups. No evidence was shown for Mets.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER, PR&amp;PR recommended</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her2 report to follow</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Known Ca breast on Flup at MRTRH-CCC</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab and imaging missing in this file</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab report incomplete</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab report missing</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab test ordered</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab tests missing</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lab tests not done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No biomarkers reported. No lab done for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No histogram report</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab and Imagine records</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab and imaging results for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab and Imaging results in the file</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab report</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab report for the patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab report for this patient</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab report for this patient.</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab reports for this patient</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab request</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab requests ordered</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab results in file</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No Lab test done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No Lab test,No Pathology</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No Lab tests</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests are available in the file.  Client last seen on the enrolment date</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests are available.  The client has been an LFU since July 2016</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests available in the file</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No Lab tests done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab tests were available and the last time the client was seen in the clinic was 19 July 22</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab works for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lap report for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No other lab report indicated for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No other lab test results for this patient</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No other lab tests indiated here</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No other lab tests indicated for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No records for baliseline Lymphocyte, Neutrophil, hemoglobin, platelet and white cell count</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No records of lab and imaging results</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No test ordered</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No tests ordered</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Plan for biopsy and Histology</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Recommended for ER,PR,HER2</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referral from MOI teaching and referral</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred from TEXAS Cancer Centre with Lab tests missing.  Vitals were missing too and the last time the client was seen on 30-Apr-2018</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">The client was seen last on 7-Nov-23.  Oncology review is recommended.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">The patient has no Lab results taken. The last vitals were taken on 13/07/2022.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Was in the clinic last on 7-Nov-22</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">176 (75.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">lab_and_imaging_7d2e_complete</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>1.71 (0.699)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">2.00 [0, 2.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Jaundice</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Pain</td>
+<td>100 (42.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">134 (57.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Vomiting</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Abdomen fullness</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___5</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Fatigue</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___7</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Anemia</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">227 (97.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">presenting_symptom___8</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>114 (48.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">120 (51.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">other_symptom</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">abdominal pain and P V bleeding</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Back ache</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bleeding</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">bleeding fuol smell pv discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">bleeding ulcerated wall, furl smell pv discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bleeding, Diziiness</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Blood discharge, Right scrotal swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast ca</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Ca</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">breast lump</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast mass</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast producing pus an foul smell</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">breast swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast swelling</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast swellings,Weight Loss</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast tenderness</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Wound and Weak</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breathing difficulty,</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Burning sensation n the left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Burning sensation nipple, difficulty in swallowing pills</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ca  Breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">CA breast (Rt)-IDC grade 3</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chest pain</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">cough</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cough with non productive sputum</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">cough, mild chest pain</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Difficulty in breathing ,chest pain and fever</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">discharging pus</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ductal cell carcinoma of the breast grade 2/3</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Dysphagia</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Fibroadenoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Foul smell, discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">headache</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Headache,Right breast swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">History of paget&#39;s of the right breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Inability to walk,</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Invasion ductal</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Invasion ductal Carcinoma,nuclear grade 2</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Joint pains</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Known patient with invasive ductal ca left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">lamp on left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left axillary swelling, Chest pain</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left beast swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left Breast Ca</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast invasive duct carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">left breast mass</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast mass</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left Breast mass</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast sided mass 5/12</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast swelling</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast swelling, Altered bowl habits</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast swelling, cough,difficulty in swallowing solid food</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Limb swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Loss of appetite</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Metastic ca Breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Minimal pain at surgical site</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">multiple mass of left nipple</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Night sweats</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nipple discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nipple discharge,Tinge of blood on left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">numbness</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">OV bleeding</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">P V discharge</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pain and Occasional cough</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pain on the left side of breast, Foul smelling discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Passing blood, poor apetite</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">poor hearing right side</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">PV bleeding</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pv discharge,urinary incontinence,Headache</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Reduced appetite</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">retracted nipple left nipple, breast mass palpated , right breast nipple discharge-milkish</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right  breast swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast enlarged  with periareolar skin thickening</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast lamp</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast lump associated with pain</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast lump associated with pain more than 3 yrs</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast pain and Swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast swelling</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right invasive ductal carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rt breast lump</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">RT breast ulceration and Bleeding</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">smelling discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sweating,chills</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Swelling</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Swelling ,cough that is productive of sputum</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Swelling in the left breast for 2 months</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Swelling of breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">swelling of right breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">swelling of the armpit and breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">swelling of the Neck</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Swelling on left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">swelling on the left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">swollen left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Swollen left breast, Burning sensation on the armpit</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Two painless lumps in left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Vaginal itching and discharge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">122 (52.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">diagnosis_weight</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>68.2 (17.7)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>67.5 [28.7, 158]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">36 (15.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">diagnosis_height</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>162 (18.5)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>164 [1.59, 187]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">39 (16.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">smoke</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Former</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Never</td>
+<td>116 (49.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">114 (48.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">smoke_pack_yrs</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">alcohol</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Current</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Former</td>
+<td>8 (3.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Never</td>
+<td>113 (48.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">109 (46.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">HIV</td>
+<td>54 (23.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">180 (76.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Diabetes</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Hypertension</td>
+<td>23 (9.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">211 (90.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___5</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___7</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___8</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">comorbidity___9</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">other</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">art</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>52 (22.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">182 (77.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cd4_at_ca_diagnosis</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">vl_at_ca_diag</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">6 months undatable</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">LDL</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">dm_tx___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Metformin</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">dm_tx___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">dm_tx___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">dm_tx___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">htn_tx</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>21 (9.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">213 (91.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cvd_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">scd_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">autoimmune_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">other_cancer_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">arthritis</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stroke 2019</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">fam_hist_cancer</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>100 (42.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>116 (49.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Yes</td>
+<td class="lastrow">18 (7.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relation_history___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Father</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">229 (97.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relation_history___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mother</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">227 (97.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relation_history___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Brother</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relation_history___4</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Sister</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relation_history___5</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">relation_history___6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_hist_rlshp_father</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Bone Cancer (includes Ewing Sarcoma and Osteosarcoma and Malignant Fibrous Histiocytoma)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Burkitt Lymphoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Esophageal Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Thyroid Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">230 (98.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_hist_rlshp_mom</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cervical Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Esophageal Cancer</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Throat Cancer (Head and Neck Cancer)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_hist_rlshp_brother</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Leukemia</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_hist_rlshp_sister</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Cancer</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">232 (99.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_hist_rlshp_children</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_hist_rlshp_other</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Aunt</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cousin</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Grand Father</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Paternal Cousin</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uncle</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">hist_cancer_type_other</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Cancer</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gastric (Stomach) Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">228 (97.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">medical_history_cb3d_complete</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>1.94 (0.341)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">2.00 [0, 2.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">cancer_type</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Breast Cancer</td>
+<td>203 (86.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Burkitt Lymphoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cervical Cancer</td>
+<td>21 (9.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ductal Carcinoma In Situ (DCIS)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Esophageal Cancer</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Head and Neck Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lym Male Breast Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Non-Hodgkin Lymphoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pregnancy and Breast Cancer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Prostate Cancer</td>
+<td class="lastrow">1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">surgery_yesno</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>146 (62.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>81 (34.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">surgery_type</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Excision</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">excisional</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Excisional biospy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Herniorrhaphy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Incision</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left Breast Mastectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left Mastectomy</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left Mastectomy AND ALND</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left MRM</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">lest breast Mastectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">LT MRM + ALND</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lumpectmy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mastecomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">mastectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mastectomy</td>
+<td>34 (14.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Matectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Modified radical +level 2 lymph node direction</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Modified radical ductal carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Modified radical mastectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Modified Radical Mastectomy</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Modified radical Mastectomy and Axillary lymp node dissection</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Modified Radical Mastectomy and level 2 lymph node dissection</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">MRM</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">MRM + ALND</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">MRM(Biopsy removal)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">MRM+ALND</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Radical MRM</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast (NRN)</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right mastectomy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right Mastectomy</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right mastectomy &amp; Lymph node dissection</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right MRM</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">RNE+CERVICAL LYMPNODE BIOPSY</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rt breast MRM+ALND</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">155 (66.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">gross_morphology</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tumor</td>
+<td>212 (90.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ulcer</td>
+<td>16 (6.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Undefined</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">gross_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Ductal carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_location</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">10</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">34cm</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bilateral breast core</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cervics</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Cervix</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">GE junction tumor</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">inflitrative uterine cervix tumor with right sided pelvic lymphadenopathy</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Invasive squamous cell carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">left</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left</td>
+<td>14 (6.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left  breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left &amp; Right</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">left and Right</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">left breast</td>
+<td>16 (6.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">left Breast</td>
+<td>15 (6.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast</td>
+<td>49 (20.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left Breast</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Left breast lump</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Multiple retroperitoneal and left pelvic lymph nodes seen</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Neck</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">right</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right  breast</td>
+<td>22 (9.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">right breast</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right breast</td>
+<td>50 (21.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right Breast</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Right peri-auricular swelling and small left pre-auricular discrete noduler swelling</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">RUOQ,RLOQ,RUIQ,RLIQ&amp; Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">squamous cell carcinoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uterus</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">23 (9.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">tumor_grade</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">G1: Well Differentiated</td>
+<td>20 (8.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">G2:</td>
+<td>116 (49.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">G3: Moderately Differentiated</td>
+<td>30 (12.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">G3: Poorly differentiated</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">G4: Undifferentiated</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">GX: Cannot be assessed</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">54 (23.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">margin_status</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Involved</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uninvolved</td>
+<td>50 (21.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>97 (41.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">76 (32.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">lymphovascular_inv</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Indeterminate</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>78 (33.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>45 (19.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>66 (28.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">43 (18.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">perineural_inv</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>46 (19.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>113 (48.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">75 (32.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">perinodal_extension</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>33 (14.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>125 (53.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">75 (32.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">adj_organs_inv</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>37 (15.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">unknown</td>
+<td>118 (50.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">77 (32.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">adj_organs_specify</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">liver and lung metastases</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">lymph_nodes_total</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>8.79 (6.17)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>8.00 [0, 29.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">196 (83.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">lymph_nodes_positive</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>3.79 (4.30)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>2.00 [0, 16.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">205 (87.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">path_t_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">pT0</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pT2</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pT3</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pT4</td>
+<td>13 (5.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">200 (85.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">path_n_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">pN0</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pN1</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pN2</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pN3</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pNx</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">209 (89.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">path_m_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">N/A</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pM0</td>
+<td>17 (7.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">pM1</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">210 (89.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">path_m_site</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Bone metastases</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">bone Metastasis</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">perivesical</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">231 (98.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">path_final_stage</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">1A</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">3</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Grade 1</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">grade 2</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">I</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">II</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIb</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIB</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">III</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIIA</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIIB</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IIIc</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">iv</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IV</td>
+<td>11 (4.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IVA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">PT3</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stage II</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stage III</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Stage IIIb</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">191 (81.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">mmr_status</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">MMR proteins by IHC</td>
+<td>12 (5.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>36 (15.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">186 (79.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">msi_pcr</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">mlh1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">msh2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">msh6</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">pms2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">pdl1_test</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">prostate_path___1</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>0.00427 (0.0654)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">0 [0, 1.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">prostate_path___2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>0 (0)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">0 [0, 0]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">prostate_path___3</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>0.00427 (0.0654)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">0 [0, 1.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">prostrate_psa</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>9600 (NA)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>9600 [9600, 9600]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">gleason_score</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">prostrate_grade</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>2.00 (NA)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>2.00 [2.00, 2.00]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">233 (99.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">breast_er</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Negative</td>
+<td>39 (16.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Positive</td>
+<td>56 (23.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">139 (59.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">breast_pr</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Negative</td>
+<td>47 (20.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Positive</td>
+<td>47 (20.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">140 (59.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">breast_her2</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Negative</td>
+<td>69 (29.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Positive</td>
+<td>23 (9.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">142 (60.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ki67</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">0-10</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">11-33%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">20-30%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">21-30%</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">25</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">30</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">30-40</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">30-40%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">31-40%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">4</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">40</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">41-50</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">45</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">47</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">5</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">5-10%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">55-60</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">58</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">60-70%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">61-70%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">70-80</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">80</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">80-90</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">80%</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">90</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">91-100</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">203 (86.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">hpvstatus</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">ebvstatus</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">kshv_status</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Yes</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No</td>
+<td>0 (0%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">234 (100%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">path_comments</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Advise on ER, PR,Her receptor studies</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Biomarkers for this patient not done.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Biomarkers not done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Biomarkers to be done and follow up with addendum report</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast biomarkers are recommended.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast biomarkers missing</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breast biomarkers missing.  Client is known Ca breast from MTRH.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Breastmakers not done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Clinical and imaging correlation advised</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER PR HER2 recommended</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER, PR AND HER-2 Recommended for further biological characterization</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER,PR,HER2 to follow as addendum</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PER/HER2 not done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR not indicated</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her-2 recommended</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her 2 recommended</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her2  missing</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/HER2 and KI67 recommended</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her2 not done</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">er/pr/her2 recommended</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her2 recommended</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/HER2 recommended</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her2 recommended.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ER/PR/Her2 unknown</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IHC-Pending report</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">IHC pending</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Imaging report in file, No pathology report</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Invasive ductal ca of right breast needs staging. The patient has no medical history indicated or noted in her patient files.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ki67 pending results</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mastectomy+axillary lymph node dissection done in India 2015</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No biomarkers test done  Lab tests missing and the client is LFU since July 20216</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No breast biomarker report</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No breast biomarkers identified</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No Breast biomarkers identified</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No ER/PR and Her- 2 for this patient.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No ER/PR/Her-2 results</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab requests or reports</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No lab test results</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No past pathology reports of 2014</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No pathology done</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No pathology records</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No pathology report on breast biomarkers.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No pathology tests in the patient file</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">No report for ER, PR HER2 and Ki67</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">patient referred from kisumu hospice; pathology report not available or exact treatment start date but was in 2014</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Previously treated at MTRH</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Recommended for breast biomarkers but were not done.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Recommended repeat of biopsies for biomarkers if clinically indicated</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred by TEXAS CANCER CENTRE.  Known case of Breast Ca</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Referred for Core biopsy, Histopathology+IHC and CT scan staging</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">The patient does not have any Breast biomarkers done.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">This patient was diagnosed in 2022 but got lost to follow up. She was then admitted to the clinic on 9th June 2023.</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Treated  at KNH in 2013</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">175 (74.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">pathology_e94e_complete</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>1.95 (0.317)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Median [Min, Max]</td>
+<td class="lastrow">2.00 [0, 2.00]</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">county</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Bungoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Busia</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Homa Bay</td>
+<td>50 (21.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakamega</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu</td>
+<td>98 (41.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Migori</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Murang&#39;a</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nandi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyamira</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Siaya</td>
+<td>60 (25.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Vihiga</td>
+<td>10 (4.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">subcounty</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Alego Usonga</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Awendo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bondo</td>
+<td>14 (6.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bumula</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Emuhaya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gem</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Homa Bay Town</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu Central</td>
+<td>13 (5.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu East</td>
+<td>14 (6.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu West</td>
+<td>15 (6.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kuria West</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Luanda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lwanda</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mbita</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Muhoroni</td>
+<td>8 (3.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ndhiwa</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach</td>
+<td>15 (6.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyando</td>
+<td>19 (8.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rachuonyo North</td>
+<td>12 (5.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rachuonyo South</td>
+<td>10 (4.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rangwe</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rarieda</td>
+<td>13 (5.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sabatia</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Seme</td>
+<td>10 (4.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Suba North</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Suba South</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Teso South Constituency</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya</td>
+<td>8 (3.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugunja</td>
+<td>7 (3.0%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Vihiga</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yala</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">27 (11.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">location</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Agoro West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ahero</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Alego North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Aliwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Angorom</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Awasi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Awasi Onjiko</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Boro</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bugumbe East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">BUKHAXO CENTRAL</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bwanda</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central asembo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central Asembo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central maragoli</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central Marama</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central Nyakach</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central Sakwa</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central Seme</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Central Uyoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chavakali</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chemeli</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chude</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Dago</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">East Asembo</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">East Gem</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">East Kamagak</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">East Kanyanda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">East Uyoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">EMASABA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gathunya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gem Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gem East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gem North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gembe East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gwasi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gwasi North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gwassi North</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gwassi West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Handerson</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabondo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabuoch North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kachien south</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">kadiang&#39;a</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kagan West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kajulu East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakola</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamagaga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamagak west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanamba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">kano north east</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kano North East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyabala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyada west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyadhiang</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KANYADHIANG</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyadoto west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyaivo West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyamedha</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyandoto west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyikela</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Karachuonyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Karachuonyo C</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Karadolo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Karatu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kasewe B</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KASIPAL</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Katho</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Katito</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kawadhgone</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kawino South</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kibigori</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu south west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">kisumu West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kobura</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochia</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochia west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochieng</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochieng east</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kodera North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kodhok West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KOGONY</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KOJWACH</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kojwang</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kokwanyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kolwa</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kolwa west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Komolo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kon&#39;gwen</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kondele</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KONDELE WARD</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Konyago</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">koswach</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lama</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mabera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Malakisi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Manyatta</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Maranda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Marenyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Maseno</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mfangano East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Miwani</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Muhorini</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N East Ugunja</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ndhiwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">North East Gem</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">North East Ugenya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">NORTH WEST</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">North west Kisumu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyahera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach C</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach North</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyalkin</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyamonye</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyando</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyangoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyawita</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Oboch</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Obochi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Obunga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ogweno Oriang</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ombegi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ombeyi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Omiadiere</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Otonglo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Otwenya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Oyugis</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Polyview</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rachuonyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rangwe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rusinga West</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">S Alego</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">S Sakwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sakwa North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sakwa south west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">seme</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Seme south West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Seme west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sondu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">South Ged</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">South Gem</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Suna North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tambua</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tongoi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Torgoi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya North East</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya South</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugunja</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugunja Town</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ukwala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Upper Kadongo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uriri</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyoma Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyoma east</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyoma south</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyoma South</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Vihiga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wagai</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wangchieng</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">West Alego</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">WEST ALEGO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">West Nyakach</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">West Seme</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">West uyoma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">West Uyoma</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yimbo central</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">40 (17.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">sublocation</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Agoro</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ahero</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Akala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Angoga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Angorom</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ARENGO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Asai</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Asembo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bar B</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bar Kanyango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Barchando</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Boader</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Border</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Buoye</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Degora</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">E.Othany</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">east kabar</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">East Ngere</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ebusiekue</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">EBUTAINI</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ebwiranyi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Emumaboyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gamalenga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gari</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gimarakwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gombe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gongo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Got Abiero</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">GOT Ramogi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gunya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Igunga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Jimo West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabonyo</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabura</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabura South</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kachien</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kachieng</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kachogo North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">kadero</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kadianga East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kadongo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kajimbo</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakarao</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakola ahero</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakumu kombewa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kaluo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamagaga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamiolo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamswa South</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamuga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kamune</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanchwanyra</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kang&#39;o</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanuoriga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyabala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyadhiang</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyakwano</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyakwar</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KANYAKWAR</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyameta</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyikela</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KARACHUONYO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Karateng</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kasewe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kasipul</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Katho</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Katito</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Katwenga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KAWERE</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kawino</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kerandolo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KISOKO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu west</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kitawa</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kobong</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kobuola</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochieng</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochieng East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kogembo</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kogony</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kogweno Oriang</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kojwang</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KOKAL</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kokoko</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kokwiri</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kolwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kolwa Central</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Konyago Majieri</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Konyango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">koswach</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kotieno</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kowili</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kowuor</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kwabwai</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kwakungu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lieta</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ligala</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mabera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Manyatta</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Maranda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Marenyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Marera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Masogo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mawira</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Merera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Migosi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Miwani</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N. Kanyabala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ndere</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ndori</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ngare East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ngunya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">North Ramba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyabera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyagwetho</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyahera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyajuok</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach West</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyamasaria</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyandiwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyang&#39;oma</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyankore</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyawita</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyilima</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ochienga</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ojwando</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Omia Adhere</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Omiya Mwalo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Osiri</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Otimong</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Owaga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Owich</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Oyugis</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Polyview</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rachar</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ramande</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rangala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rangwe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">seme</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Shikunga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">SIAYA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Songor</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">South Kanyabala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">South Ramba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">South Rata</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">suba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Suba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tabulega</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">TIENGRE</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya East</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya south</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">UKWALA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">upper Bwanda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Upper Bwanda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uranga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Usire</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyane</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wahondo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wanyama</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wathgone</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">West Kolunje</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Winam</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yala township</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yala Township</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">49 (20.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">village</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Adudi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Agoro</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Agoro Sare</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ahero</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Akala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Alendu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Andingo Panga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Anyiko</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">APONDO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Arina</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Asembo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Awasi</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Bondo</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Buoye</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Busia</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chemeli</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Chiga</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Daraja mbili</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Esitutu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gambogi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gem</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gem Rae</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ghirinyi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Got nanga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">GOT Odongo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Got winyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Gwasi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Jimo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabolo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kabonyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kachogo North</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kadawa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kadhiambo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kadila</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kadongo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kajimbo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kajulu</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakarao</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakau</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kakumu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyada</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyagwal</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KANYAKWAR</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyamedha</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyameta</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyibala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyidoto</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyijowi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kanyipoto</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Karondoh</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kasiwindi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Katito</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KEMELOI</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kendu</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Keyo wakesi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kibigori</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kibos</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kiliti</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KIREMBE</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisenye</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">KISOKO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kisumu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kitawa</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kobare</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kochia</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kodede</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kodera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kodongo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kokolo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kokwaro</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kolonde</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kombewa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Komenya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kondele</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Konge</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Konyago</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kotieno</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kour</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kowili</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kowuor</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Koyugi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kusa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Kwabwai</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lieta</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Luanda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Lwanda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">LWANDA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Madiary</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Malakisi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Malendo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mamboleo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Manyatta</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">MANYATTA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Maseno</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Masogo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mawira</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mbisu</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Migosi</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Milimani</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Minera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">miwani</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Miwani</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Miyoyo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mountain view</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Muchebe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Mugosi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Muraka</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">N Kanyabala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ndere</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ndhiwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nduru</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ngonjo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ngont Nanga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ngunya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyabondo</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyaboro</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyahera</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyakach</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyalkinyi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyalunya</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyamasaria</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyambere</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyamonye</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyandheho</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyandiwa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyando</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyangori</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyawita</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyawitta</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Nyilima</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Oboch</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ochillo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ogango</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ogwal</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ojimbo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ombeyi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">ONYUONGO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Oyugis</td>
+<td>6 (2.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pala</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Polyview</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rabuor</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">RAIRI</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rangwe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rarieda</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Rawa</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Renja</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Riamuye</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sega</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">seme</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Seme</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">SIAYA</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sifu Island</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sigomsi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Simbi</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Simerro</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Simur</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sinaga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">South Alego</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Suba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Sumba</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tagare</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">TIENGRE</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Town</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugenya south</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Ugunja</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">UKWALA</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uriri</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Usenge</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Usire</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Utoga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyane</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uyoma</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Vihiga</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wahondo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wang&#39;otomde</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">wanjare</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Wanyama</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Warewe</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yala</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">YAO</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Yogo</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">19 (8.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">dob_age</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>1.55 (0.499)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>2.00 [1.00, 2.00]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">age</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Mean (SD)</td>
+<td>55.5 (15.7)</td>
+</tr>
+<tr>
+<td class="rowlabel">Median [Min, Max]</td>
+<td>55.0 [17.0, 94.0]</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">gender</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Female</td>
+<td>217 (92.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Male</td>
+<td class="lastrow">17 (7.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">insurance</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">NHIF</td>
+<td>111 (47.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Private</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">UHC</td>
+<td>8 (3.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Uninsured</td>
+<td>18 (7.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Unknown</td>
+<td class="lastrow">95 (40.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">maritalstatus</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Divorced</td>
+<td>5 (2.1%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Married</td>
+<td>121 (51.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Single</td>
+<td>13 (5.6%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unknown</td>
+<td>27 (11.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Widowed</td>
+<td>64 (27.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Widower</td>
+<td class="lastrow">4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">education</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Dont know</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">None</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Pre-University, colleges, technical and vocational training institutions</td>
+<td>3 (1.3%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Primary school (1st - 8th class)</td>
+<td>9 (3.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Secondary school (Form 1-4)</td>
+<td>4 (1.7%)</td>
+</tr>
+<tr>
+<td class="rowlabel">University</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">214 (91.5%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">occupation</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Construction worker</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Don´t know</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Farmer</td>
+<td>38 (16.2%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Guard/security</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Housewife</td>
+<td>16 (6.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Not employed</td>
+<td>15 (6.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Other</td>
+<td>56 (23.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Professional (e.g. teacher, nurse)</td>
+<td>16 (6.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Seller (e.g. market, streets)</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">86 (36.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel firstrow">occupation_other</td>
+<td class="firstrow"></td>
+</tr>
+<tr>
+<td class="rowlabel">Business</td>
+<td>37 (15.8%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Business lady</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Carpenter</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Casual labourer</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Casual worker</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Data clerk</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Retired</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Saloonist</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Secretary</td>
+<td>2 (0.9%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Self Employed</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Self employed Cyber</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Tailor</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Technician</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel">Unemployed</td>
+<td>1 (0.4%)</td>
+</tr>
+<tr>
+<td class="rowlabel lastrow">Missing</td>
+<td class="lastrow">183 (78.2%)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
